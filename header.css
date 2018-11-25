@@ -10,10 +10,19 @@ a {
 h1 {
   font-family: "Arial";
   font-size: 40px;
+  float: left;
 }
 
 a {
   font-family: "Segoe UI";
   font-size: 21px;
   text-decoration: none;
+}
+
+nav {
+  float: right;
+}
+
+header {
+  overflow: hidden;
 }
