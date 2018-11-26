@@ -1,9 +1,13 @@
 header {
   background-color: #e24647;
   color: #fff;
-  overflow: hidden;
-  margin: 0 115px;
+  width: 80%;
   padding: 55px 60px 95px;
+  overflow: hidden;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -17,7 +21,7 @@ a {
   font-size: 21px;
   text-decoration: none;
   color: inherit;
-  margin-left: 20px;
+  padding-left: 20px;
 }
 
 nav {
