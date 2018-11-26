@@ -21,7 +21,7 @@
 
 ## float
 
-- Left, Rigth, Top, Bottom e z-index
+- Left, Right, Top, Bottom e z-index
 - Novo Contexto;
 - Nunca esconde conteúdo;
 - O tamanho do elemento passa a ser o conteúdo;
