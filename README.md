@@ -30,5 +30,49 @@
 ## overflow
 
 - `hidden`
+
   - Se existe largura e altura definidas e o conteúdo desse elemento é maior que o elemente, esse conteúdo não é exibido;
   - Se não possui largura e altura definidas mostra o conteúdo que não estava enxergando Ex: `float`.
+
+- `clear`
+
+  - Observa se existe algum elemente flutuando (`float`), caso encontre não fica ao lado, quebra a linha e fica abaixo.
+  - Pode ser:
+    - Right -> confere o lado esquerdo
+    - Left -> confere o lado direito
+    - Both -> confere os dois lados
+
+- `display`
+
+  - `inline`
+    - Deixa elementos na mesma linha;
+    - Não defini width nem height;
+  - `block`
+    - Não deixa na mesma linha;
+    - Deixa definir width e height;
+  - `inline-block`
+    - Deixa elementos na mesma linha;
+    - Deixa definir width e height;
+
+- `line-height`
+
+  - Defini o tamanho da linha;
+  - Quando o elemento tiver uma linha e for necessário alinha verticalmente pelo centro, basta colocar o mesmo tamanho do `width` no ``line-height;
+  - Quando o elemento possuir mais de uma linha, esse não é uma propriedade boa para ser utilizada.
+
+- `position`
+
+  - `absolute`
+
+    - Cria novo contexto;
+    - O conteúdo define width e height;
+    - Move em relação a página:
+
+      - `top` e `bottom` mexem com o eixo Y;
+      - `left` e `right` mexem com o eixo X;
+
+    - `transform`
+      - Pega valor do elemento, onde pode descontar ou aumentar
+        - `translateX`
+        - `translateY`
+        - `translate(X, Y)`
