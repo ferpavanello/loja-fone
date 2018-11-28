@@ -46,7 +46,7 @@
 
   - `inline`
     - Deixa elementos na mesma linha;
-    - Não defini width nem height;
+    - Não deixa colocar width nem height;
   - `block`
     - Não deixa na mesma linha;
     - Deixa definir width e height;
@@ -76,3 +76,14 @@
         - `translateX`
         - `translateY`
         - `translate(X, Y)`
+
+  - `vertical-align`
+
+    - Só funciona quando existem dois elementos `inline-block` um ao lado do outro;
+    - `baseline` - alinha pela base (padrão);
+    - `top` - alinha pelo topo;
+    - `middle` - alinha pelo centro;
+
+  - `box-sizing`
+    - `content-box` - o conteúdo é a caixa o que coloca é extra (padrão);
+    - `border-box` - considera a borda como parte da caixa;
