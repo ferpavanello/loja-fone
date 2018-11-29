@@ -69,3 +69,11 @@
   font-size: 18px;
   text-decoration: none;
 }
+
+.dd-button {
+  display: inline-block;
+}
+
+.dd-button.-first {
+  margin-right: 38px;
+}
