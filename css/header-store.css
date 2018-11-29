@@ -29,37 +29,38 @@
   color: #fff;
 }
 
-.dt {
+.dt-store {
   font-family: "Segoe UI", "Roboto", sans-serif;
-}
-
-.dt.-first {
   font-size: 25px;
   margin-top: 50px;
   margin-bottom: 100px;
 }
 
-.dt.-second {
+.dd {
+  font-family: "Segoe UI", "Roboto", sans-serif;
+}
+
+.dd.-first {
   font-size: 20px;
   margin-bottom: 30px;
 }
 
-.dt.-third {
+.dd.-second {
   font-size: 24px;
   margin-bottom: 25px;
 }
 
-.dt.-fourth {
+.dd.-third {
   font-size: 24px;
   margin-bottom: 75px;
 }
 
-.dt.-fiveth {
+.dd.-fourth {
   font-size: 18px;
   margin-bottom: 30px;
 }
 
-.dt.-last {
+.dd.-last {
   margin-bottom: 115px;
 }
 
