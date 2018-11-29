@@ -24,3 +24,47 @@
 .navigation {
   float: right;
 }
+
+.dl-store {
+  color: #fff;
+}
+
+.dt {
+  font-family: "Segoe UI", "Roboto", sans-serif;
+}
+
+.dt.-first {
+  font-size: 25px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.dt.-second {
+  font-size: 20px;
+  margin-bottom: 30px;
+}
+
+.dt.-third {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.dt.-fourth {
+  font-size: 24px;
+  margin-bottom: 75px;
+}
+
+.dt.-fiveth {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.dt.-last {
+  margin-bottom: 115px;
+}
+
+.saber-mais {
+  color: #fff;
+  font-size: 18px;
+  text-decoration: none;
+}
