@@ -85,5 +85,5 @@
     - `middle` - alinha pelo centro;
 
   - `box-sizing`
-    - `content-box` - o conteúdo é a caixa o que coloca é extra (padrão);
+    - `content-box` - o conteúdo é a caixa, o que coloca é extra (padrão);
     - `border-box` - considera a borda como parte da caixa;

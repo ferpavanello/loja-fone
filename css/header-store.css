@@ -25,8 +25,22 @@
   float: right;
 }
 
+.geral {
+  display: inline-block;
+}
+
+.fone {
+  width: 50%;
+  position: absolute;
+  right: 50%;
+}
+
 .dl-store {
   color: #fff;
+  width: 50%;
+  position: absolute;
+  left: 50%;
+  background-color: #e24647;
 }
 
 .dt-store {
