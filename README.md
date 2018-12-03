@@ -47,12 +47,14 @@
   - `inline`
     - Deixa elementos na mesma linha;
     - Não deixa colocar width nem height;
+    - Fica com o comportamento de uma palavra (conteúdo);
   - `block`
     - Não deixa na mesma linha;
     - Deixa definir width e height;
   - `inline-block`
     - Deixa elementos na mesma linha;
     - Deixa definir width e height;
+    - Fica com o comportamento de uma palavra (conteúdo);
 
 - `line-height`
 

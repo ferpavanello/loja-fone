@@ -1,93 +1,29 @@
 .header-store {
   color: #fff;
   overflow: hidden;
+  margin-bottom: 138px;
+  padding-left: 60px;
 }
 
-.title {
-  font-family: Arial, "Roboto", sans-serif;
+.header-store > .title {
   font-size: 40px;
+  font-family: Arial, "Roboto", sans-serif;
   float: left;
+  text-transform: uppercase;
 }
 
-.action {
-  font-family: "Segoe UI", "Roboto", sans-serif;
+.header-store > .navigation {
   font-size: 21px;
+  font-family: "Segoe UI", "Roboto", sans-serif;
+  float: right;
+}
+
+.header-store .action {
   text-decoration: none;
   color: inherit;
   margin-right: 60px;
 }
 
-.last {
+.header-store .action.-last {
   margin-right: 0px;
-}
-
-.navigation {
-  float: right;
-}
-
-.geral {
-  display: inline-block;
-}
-
-.fone {
-  width: 50%;
-  position: absolute;
-  right: 50%;
-}
-
-.dl-store {
-  color: #fff;
-  width: 50%;
-  position: absolute;
-  left: 50%;
-  background-color: #e24647;
-}
-
-.dt-store {
-  font-family: "Segoe UI", "Roboto", sans-serif;
-  font-size: 25px;
-  margin-top: 50px;
-  margin-bottom: 100px;
-}
-
-.dd {
-  font-family: "Segoe UI", "Roboto", sans-serif;
-}
-
-.dd.-first {
-  font-size: 20px;
-  margin-bottom: 30px;
-}
-
-.dd.-second {
-  font-size: 24px;
-  margin-bottom: 25px;
-}
-
-.dd.-third {
-  font-size: 24px;
-  margin-bottom: 75px;
-}
-
-.dd.-fourth {
-  font-size: 18px;
-  margin-bottom: 30px;
-}
-
-.dd.-last {
-  margin-bottom: 115px;
-}
-
-.saber-mais {
-  color: #fff;
-  font-size: 18px;
-  text-decoration: none;
-}
-
-.dd-button {
-  display: inline-block;
-}
-
-.dd-button.-first {
-  margin-right: 38px;
 }
