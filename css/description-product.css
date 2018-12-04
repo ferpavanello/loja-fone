@@ -40,3 +40,8 @@
   text-decoration: none;
   margin-bottom: 25px;
 }
+
+.button-group {
+  clear: left;
+  float: right;
+}
