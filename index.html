@@ -13,10 +13,8 @@
     <link rel="stylesheet" href="css/base.css" />
     <link rel="stylesheet" href="css/container-store.css" />
     <link rel="stylesheet" href="css/header-store.css" />
-    <link rel="stylesheet" href="css/search.css" />
     <link rel="stylesheet" href="css/photo-product.css" />
     <link rel="stylesheet" href="css/wrap-product.css" />
-    <link rel="stylesheet" href="css/stars-group.css" />
     <link rel="stylesheet" href="css/description-product.css" />
     <link rel="stylesheet" href="css/button-store.css" />
   </head>
@@ -27,9 +25,7 @@
         <h1 class="title">Logo</h1>
 
         <nav class="navigation">
-          <div class="search">
-            <input class="input-search" placeholder="Busca" />
-          </div>
+          <input type="search" placeholder="Buscar" />
           <a class="action" href="http://collabcode.training">Produtos</a>
           <a class="action" href="http://collabcode.training">Serviços</a>
           <a class="action -last" href="http://collabcode.training"
@@ -43,22 +39,12 @@
       <section class="wrap-product">
         <dl class="description-product">
           <dt class="title">Fone top, feliz e caro</dt>
-          <dd class="stars-group">
-            <figure class="star">
-              <img src="img/star.png" alt="Estrela Preenchida" />
-            </figure>
-            <figure class="star">
-              <img src="img/star.png" alt="Estrela Preenchida" />
-            </figure>
-            <figure class="star">
-              <img src="img/star.png" alt="Estrela Preenchida" />
-            </figure>
-            <figure class="star">
-              <img src="img/star.png" alt="Estrela Preenchida" />
-            </figure>
-            <figure class="star">
-              <img src="img/empty-star.png" alt="Estrela Vazia" />
-            </figure>
+          <dd class="item -star">
+            <img src="img/star-active.png" alt="Estrela" />
+            <img src="img/star-active.png" alt="Estrela" />
+            <img src="img/star-active.png" alt="Estrela" />
+            <img src="img/star-active.png" alt="Estrela" />
+            <img src="img/star.png" alt="Estrela Vazia" />
           </dd>
           <dd class="item">4.0 (97)</dd>
           <dd class="item -info">
@@ -73,13 +59,15 @@
             compre que você não vai se arrepender e se você se arrepender pode
             vender no mercado livre..kkkk
           </dd>
-          <dd class="text"><a href="" class="action">Saber mais...</a></dd>
+          <dd class="text -more">
+            <a href="" class="action">Saber mais...</a>
+          </dd>
         </dl>
+        <div class="buttons">
+          <button class="button-store -second">Adiciona no carrinho</button>
+          <a class="button-store" href="comprar.html">Comprar</a>
+        </div>
       </section>
-      <div class="button-group">
-        <button class="button-store -second">Adiciona no carrinho</button>
-        <a class="button-store" href="comprar.html">Comprar</a>
-      </div>
     </div>
   </body>
 </html>
