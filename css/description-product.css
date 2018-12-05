@@ -19,6 +19,12 @@
   top: 8px;
   left: -47px;
   cursor: pointer;
+
+  transition: all 300ms linear;
+}
+
+.description-product .item.-heart:hover {
+  transform: scale(1.2);
 }
 
 .description-product > .item.-star {
@@ -27,6 +33,12 @@
 
 .description-product > .item .img-star {
   cursor: pointer;
+
+  transition: all 300ms linear;
+}
+
+.description-product > .item .img-star:hover {
+  transform: scale(1.2);
 }
 
 .description-product > .item.-star + .item {
