@@ -8,6 +8,12 @@
   margin-bottom: 50px;
 }
 
+.description-product .heart {
+  position: absolute;
+  transform: translateX(calc(-100% - 48px));
+  margin-top: 9px;
+}
+
 .description-product > .item {
   font-size: 20px;
   margin-bottom: 28px;
