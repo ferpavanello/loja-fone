@@ -8,15 +8,17 @@
   margin-bottom: 50px;
 }
 
-.description-product .heart {
-  position: absolute;
-  transform: translateX(calc(-100% - 48px));
-  margin-top: 9px;
-}
-
 .description-product > .item {
   font-size: 20px;
   margin-bottom: 28px;
+}
+
+.description-product .item.-heart {
+  position: absolute;
+  transform: translateX(-100%);
+  top: 8px;
+  left: -47px;
+  cursor: pointer;
 }
 
 .description-product > .item.-star {
