@@ -37,8 +37,21 @@
   margin-right: 60px;
 }
 
-.header-store .action:hover {
+.header-store .action::after {
+  content: "";
+  display: inline-block;
   border-bottom: 1px solid #fff;
+  width: 0;
+
+  transition: all 400ms linear;
+}
+
+.header-store .action:hover {
+  display: inline-block;
+}
+
+.header-store .action:hover:after {
+  width: 100%;
 }
 
 .header-store .action.-last {
