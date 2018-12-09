@@ -19,26 +19,18 @@
   top: 8px;
   left: -47px;
   cursor: pointer;
-
-  transition: all 300ms linear;
 }
 
-.description-product .item.-heart:hover {
+.description-product .icon:hover {
   transform: scale(1.2);
+}
+
+.description-product .icon {
+  transition: all 100ms linear;
 }
 
 .description-product > .item.-star {
   margin-bottom: 10px;
-}
-
-.description-product > .item .img-star {
-  cursor: pointer;
-
-  transition: all 300ms linear;
-}
-
-.description-product > .item .img-star:hover {
-  transform: scale(1.2);
 }
 
 .description-product > .item.-star + .item {

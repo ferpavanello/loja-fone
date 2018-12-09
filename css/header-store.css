@@ -29,31 +29,35 @@
   padding: 8px;
   width: 358px;
   margin-right: 65px;
+  vertical-align: bottom;
 }
 
 .header-store .action {
+  display: inline-block;
   text-decoration: none;
   color: inherit;
   margin-right: 60px;
-}
-
-.header-store .action::after {
-  content: "";
-  display: inline-block;
-  border-bottom: 1px solid #fff;
-  width: 0;
-
-  transition: all 400ms linear;
-}
-
-.header-store .action:hover {
-  display: inline-block;
-}
-
-.header-store .action:hover:after {
-  width: 100%;
+  padding-bottom: 8px;
+  position: relative;
 }
 
 .header-store .action.-last {
   margin-right: 0px;
+}
+
+.header-store .action:after {
+  content: "";
+  height: 1px;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: center left;
+  transition: transform 200ms linear;
+}
+
+.header-store .action:hover:after {
+  transform: scaleX(1);
 }
