@@ -7,3 +7,26 @@
   border-bottom-right-radius: 150px;
   margin-right: 157px;
 }
+
+@media (max-width: 1265px) {
+  .photo-product {
+    margin-right: 50px;
+  }
+}
+
+@media (max-width: 1158px) {
+  .photo-product {
+    position: relative;
+    height: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 25%;
+    margin-right: 0;
+    margin-bottom: 50px;
+  }
+  .photo-product > img {
+    display: block;
+    margin: auto;
+    max-width: 100%;
+  }
+}

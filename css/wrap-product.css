@@ -10,3 +10,18 @@
   bottom: 0;
   transform: translateY(calc(100% + 98px));
 }
+
+@media (max-width: 1158px) {
+  .wrap-product {
+    position: static;
+    display: block;
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+  }
+  .wrap-product > .buttons {
+    position: relative;
+    transform: none;
+    margin-top: 50px;
+  }
+}
