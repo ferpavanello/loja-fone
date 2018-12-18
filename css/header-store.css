@@ -85,6 +85,7 @@
   .header-store {
     padding-left: 30px;
     padding-right: 30px;
+    margin-bottom: 80px;
   }
   .header-store [type="search"] {
     display: none;
@@ -92,6 +93,9 @@
 }
 
 @media (max-width: 530px) {
+  .header-store {
+    margin-bottom: 40px;
+  }
   .header-store .action {
     margin-right: 30px;
   }
@@ -107,6 +111,7 @@
   .header-store {
     padding-left: 16px;
     padding-right: 16px;
+    margin-bottom: 20px;
   }
 
   .header-store .action {
