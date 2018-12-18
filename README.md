@@ -89,3 +89,15 @@
   - `box-sizing`
     - `content-box` - o conteúdo é a caixa, o que coloca é extra (padrão);
     - `border-box` - considera a borda como parte da caixa;
+
+## Seletores
+
+Padrão: o de baixo sobreescreve o de cima.
+
+# Especificidade
+
+- Seletor id => 100
+- Seletor class / pseudo selectores => 10
+- Seletor tag => 1
+
+- !important => sobreescreve (gambiarra, em poucas situações não é)
