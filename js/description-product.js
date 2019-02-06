@@ -1,12 +1,28 @@
 const $heart = document.querySelector(".-heart");
 const $stars = document.querySelectorAll(".star");
 
-$heart.addEventListener("click", handleClick);
+$heart.addEventListener("click", handleClickHeart);
+
+function handleClickHeart() {
+  this.classList.toggle("-active");
+}
 
 $stars.forEach(function($star) {
-  $star.addEventListener('click', handleClick);
+  $star.addEventListener('click', handleClickStars);
 });
 
-function handleClick() {
+function handleClickStars() {
   this.classList.toggle("-active");
+  controlStars(this.id);
+}
+
+function controlStars(selectId) {  
+  $stars.forEach(function($star) {
+    if(selectId >= $star.id && !$star.classList.contains("-active")) {
+      $star.className += " -active";
+    }
+    if(selectId < $star.id && $star.classList.contains("-active")) {
+      $star.classList.remove("-active");
+    }
+  });
 }
