@@ -1,3 +1,7 @@
 const $search = document.querySelector('[type=search]');
+const $imgSearch = document.querySelector('.img-search');
 
-$search.addEventListener('click', () => $search.classList.toggle("-active"));
+$imgSearch.addEventListener('click', () => {
+    $imgSearch.classList.toggle("-active");
+    $search.classList.toggle("-active");
+});
