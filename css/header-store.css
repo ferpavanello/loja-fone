@@ -113,6 +113,7 @@
   .header-store .img-search.-active {
     transition: margin-left 600ms cubic-bezier(0, 0, 0.96, 1.26);
     margin-left: 320px;
+    content: url(../img/close.png);
   }
 
   .header-store [type="search"] {
