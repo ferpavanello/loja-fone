@@ -1,0 +1,38 @@
+.menu-hamburguer {
+  display: none;
+}
+
+.menu-hamburguer > .icon {
+  background-color: #fff;
+  height: 40px;
+  width: 40px;
+  display: none;
+}
+
+@media (max-width: 335px) {
+  .menu-hamburguer {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    color: #000;
+    transform: translateX(calc(100% - 40px));
+    transition: transform 200ms linear;
+  }
+
+  .menu-hamburguer.-active {
+    transform: translateX(calc(100% - 160px));
+    transition: transform 200ms linear;
+  }
+
+  .menu-hamburguer .list {
+    display: inline-grid;
+    vertical-align: top;
+    background-color: #fff;
+    margin-left: -6px;
+  }
+
+  .menu-hamburguer > .icon.-active {
+    display: inline-block;
+  }
+}
