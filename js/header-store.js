@@ -1,6 +1,6 @@
 const $headerStore = document.querySelector(".header-store");
-const $list = $menuHamburguer.querySelector(".list");
-const $menu = $menuHamburguer.querySelector(".-menu");
+const $list = $headerStore.querySelector(".list");
+const $menu = $list.querySelector(".-menu");
 
 $menu.addEventListener("click", () => {
   $list.classList.toggle("-active");

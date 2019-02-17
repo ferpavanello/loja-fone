@@ -6,6 +6,12 @@
   border-top-right-radius: 150px;
   border-bottom-right-radius: 150px;
   margin-right: 157px;
+  box-shadow: -350px 0px 0px 0px rgba(255, 255, 255, 0.94);
+}
+
+.photo-product > .photo {
+  margin-left: 8%;
+  margin-right: -8%;
 }
 
 @media (max-width: 1325px) {
@@ -21,6 +27,11 @@
     margin-right: 0;
     margin-bottom: 30px;
     border-radius: 0;
+  }
+
+  .photo-product .photo {
+    margin-left: 0;
+    margin-left: 0;
   }
 }
 
